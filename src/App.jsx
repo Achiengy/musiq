@@ -1,11 +1,14 @@
 //import { useState } from 'react'
 import './App.css'
+import Dashboard  from './components/dashboard'
 
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
-    <h1 className="text-3xl font-bold text-pink-800 underline text-center">Hello world!</h1> 
+    <>
+    <Dashboard/>
+    </>
   )
 }
 
