@@ -3,8 +3,7 @@ function Search() {
 
   return (
     <>
-        <div className="p-4 sm:ml-64">
-     
+       
     <div className="grid grid-cols-1 gap-4 mb-4">
        
       <div className="flex items-center justify-center rounded bg-gray-10 h-24">
@@ -46,8 +45,6 @@ function Search() {
   </div>
        
      </div>
-  
-</div>
     </>
   )
 }

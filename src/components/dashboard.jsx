@@ -124,8 +124,10 @@ function Dashboard() {
   <br/>
   <br/>
 
-   
-  <Search/>
+    <div className="p-4 sm:ml-64 bg-gray-700">
+       <Search/>
+    </div>
+ 
 </>
   )
    
